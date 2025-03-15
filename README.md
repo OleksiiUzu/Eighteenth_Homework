@@ -11,12 +11,15 @@ Clone the repository:
   ```bash
   git clone <your-repo-url>
   cd <your-repo-folder>
-## Install dependencies:
+  ```
+Install dependencies:
   ```bash
   pip install -r requirements.txt
-## Run the application:
+  ```
+Run the application:
   ```bash
   uvicorn main:app --reload
+  ```
 ## Usage
 Open http://127.0.0.1:8000/ in your browser to access the form.
 Submit a long URL to get a shortened version.
